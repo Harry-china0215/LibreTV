@@ -1,7 +1,8 @@
 FROM node:lts-alpine
 
 LABEL maintainer="LibreTV Team"
-LABEL description="LibreTV - 免费在线视频搜索与观看平台"
+# LABEL description="LibreTV - 免费在线视频搜索与观看平台"
+LABEL description="老蚊子TV - 内部专用 误进请自觉退出"
 
 # 设置环境变量
 ENV PORT=8080
